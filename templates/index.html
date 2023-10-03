@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
     <title>這是我的第一個Flask網站</title>
 </head>
 <body>
     <h1>Flask 網站</h1>
+    <h2>這是我的第一個Flask網站</h2>
+    <img src="{{url_for('static',filename='images/banner.png')}}" alt="設計學院">
 </body>
 </html>
